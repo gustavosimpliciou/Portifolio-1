@@ -1,0 +1,400 @@
+TimeUTC,timestampInMs,requestPath,requestMethod,requestQueryString,responseStatusCode,requestId,requestUserAgent,level,environment,branch,vercelCache,type,function,host,deploymentDomain,deploymentId,durationMs,region,maxMemoryUsed,memorySize,message,projectId,traceId,sessionId,invocationId,instanceId,concurrency,workflowRunId,workflowStepId
+2026-04-16 15:03:04,1776351784907,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,9m648-1776351784658-0e0de852964f,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:03:04,1776351784658,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,9m648-1776351784658-0e0de852964f,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,191,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD2BQW1YDKMDY9ZF0VDFSX,,-1,,
+2026-04-16 15:03:04,1776351784038,portifolio-1-api-server-vn61.vercel.app/favicon.ico,GET,,500,7lh4w-1776351783591-b6849a6b737f,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",error,production,main,MISS,function,/,portifolio-1-api-server-vn61.vercel.app,portifolio-1-api-server-vn61.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:03:03,1776351783591,portifolio-1-api-server-vn61.vercel.app/favicon.ico,GET,,500,7lh4w-1776351783591-b6849a6b737f,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",,production,main,MISS,function,/,portifolio-1-api-server-vn61.vercel.app,portifolio-1-api-server-vn61.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,190,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD2AWQBZYA7J44D5QHE0ZD,,-1,,
+2026-04-16 15:03:03,1776351783377,portifolio-1-api-server-vn61.vercel.app/,GET,,500,scxp9-1776351782664-7db360eeb402,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",error,production,main,MISS,function,/,portifolio-1-api-server-vn61.vercel.app,portifolio-1-api-server-vn61.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:03:02,1776351782664,portifolio-1-api-server-vn61.vercel.app/,GET,,500,scxp9-1776351782664-7db360eeb402,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",,production,main,MISS,function,/,portifolio-1-api-server-vn61.vercel.app,portifolio-1-api-server-vn61.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,155,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD2A95R59XJ9Z3KAFAP3XF,,-1,,
+2026-04-16 15:03:02,1776351782531,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,45cbl-1776351782333-5613309871a1,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:03:02,1776351782333,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,45cbl-1776351782333-5613309871a1,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,146,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD29F4CRPJQRXMSS4NQ35K,,-1,,
+2026-04-16 15:03:01,1776351781209,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,7rxqf-1776351780996-dbb2548304ad,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:03:00,1776351780996,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,7rxqf-1776351780996-dbb2548304ad,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,151,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD285B13TQKMJ7CVV65FSV,,-1,,
+2026-04-16 15:03:00,1776351780955,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,b8srk-1776351780725-32b475a30b87,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:03:00,1776351780725,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,b8srk-1776351780725-32b475a30b87,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,171,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD27X2QVDCSZQPNEYGGGV0,,-1,,
+2026-04-16 15:02:58,1776351778640,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,d75zr-1776351778414-af40add91970,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:58,1776351778414,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,d75zr-1776351778414-af40add91970,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,162,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD25N00SKM8Z92YY2DCFW3,,-1,,
+2026-04-16 15:02:57,1776351777008,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,gznnn-1776351776765-d5bcc4d50a85,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:56,1776351776765,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,gznnn-1776351776765-d5bcc4d50a85,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,188,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD2414MJKTZB76DWKZ93WX,,-1,,
+2026-04-16 15:02:56,1776351776926,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,dj94c-1776351776715-a6bf9da54231,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:56,1776351776715,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,dj94c-1776351776715-a6bf9da54231,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,156,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD23ZJE0RRDDX7YZ0YR1Z2,,-1,,
+2026-04-16 15:02:56,1776351776629,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,744xk-1776351776383-41cd9bda5043,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:56,1776351776383,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,744xk-1776351776383-41cd9bda5043,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,194,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD23N7942J198CQWK28S1F,,-1,,
+2026-04-16 15:02:55,1776351775296,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,2ckms-1776351775088-e42e94c1ce7f,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:55,1776351775088,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,2ckms-1776351775088-e42e94c1ce7f,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,155,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD22CPP1WM1CN7H7ABMED2,,-1,,
+2026-04-16 15:02:54,1776351774627,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,d6s6k-1776351774368-228a36b3bd56,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:54,1776351774368,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,d6s6k-1776351774368-228a36b3bd56,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,177,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD21PRX9Z08D5RDMQAY35M,,-1,,
+2026-04-16 15:02:52,1776351772239,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,mp24q-1776351772025-fd082dbadca3,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:52,1776351772025,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.png,GET,,500,mp24q-1776351772025-fd082dbadca3,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,157,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD1ZD4PESA8ZCX1WBRVVFE,,-1,,
+2026-04-16 15:02:51,1776351771986,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,xct9k-1776351771780-4fda8547af2a,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:51,1776351771780,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,xct9k-1776351771780-4fda8547af2a,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,141,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD1Z5FMZ8YW8PDBJC98G8M,,-1,,
+2026-04-16 15:02:49,1776351769626,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,8x969-1776351769373-c1bcecc34a56,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:49,1776351769373,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,8x969-1776351769373-c1bcecc34a56,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,179,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD1WTRQVW9E3GG5RZP0VE1,,-1,,
+2026-04-16 15:02:48,1776351768184,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,kbc7h-1776351767930-29b0fd39f320,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:47,1776351767930,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,kbc7h-1776351767930-29b0fd39f320,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,194,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD1VD7BX2YTPJYXN7SFPMA,,-1,,
+2026-04-16 15:02:47,1776351767787,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,khw9z-1776351767534-817155ca0e7e,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:47,1776351767534,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,khw9z-1776351767534-817155ca0e7e,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,196,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD1V0QCF4TNDT2YVMP4TAR,,-1,,
+2026-04-16 15:02:46,1776351766465,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,hpknh-1776351766104-7ae5063b90e3,vercel-favicon/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:46,1776351766104,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,hpknh-1776351766104-7ae5063b90e3,vercel-favicon/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,143,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD1SS11W72K07QD1F4304X,,-1,,
+2026-04-16 15:02:25,1776351745633,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,kx6t4-1776351745360-0426074eab3d,vercel-screenshot/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:25,1776351745360,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,kx6t4-1776351745360-0426074eab3d,vercel-screenshot/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,195,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD15C9N0E8DTYFSBY53BPE,,-1,,
+2026-04-16 15:02:25,1776351745513,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,h468g-1776351745310-5eca40f788f4,vercel-screenshot/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:25,1776351745310,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/favicon.ico,GET,,500,h468g-1776351745310-5eca40f788f4,vercel-screenshot/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,152,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD15A5CNXQ738JS999N395,,-1,,
+2026-04-16 15:02:25,1776351745220,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,vmsl8-1776351744981-5e61b50ace2c,vercel-screenshot/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:24,1776351744981,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,vmsl8-1776351744981-5e61b50ace2c,vercel-screenshot/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,182,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD14ZWR9CZ4DQ5RN05XTGT,,-1,,
+2026-04-16 15:02:25,1776351745223,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,chfg8-1776351744814-69b4ab0937c8,vercel-screenshot/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:24,1776351744814,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,chfg8-1776351744814-69b4ab0937c8,vercel-screenshot/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,183,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD14ZYB9KKQB42YGNH1EME,,-1,,
+2026-04-16 15:02:24,1776351744799,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,46hqx-1776351743970-61d655e0bf7f,vercel-screenshot/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.
+Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:23,1776351743970,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,46hqx-1776351743970-61d655e0bf7f,vercel-screenshot/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,170,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD144B0H87GD1WR55674CE,,-1,,
+2026-04-16 15:02:24,1776351744344,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,hhsll-1776351743835-3012065d227c,vercel-screenshot/1.0,error,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,,,,,"Error [ERR_UNSUPPORTED_DIR_IMPORT]: Directory import '/var/task/artifacts/api-server/src/routes' is not supported resolving ES modules imported from /var/task/artifacts/api-server/src/app.js
+    at finalizeResolution (node:internal/modules/esm/resolve:268:11)
+    at moduleResolve (node:internal/modules/esm/resolve:870:10)
+    at moduleResolveWithNodePath (node:internal/modules/esm/resolve:996:14)
+    at defaultResolve (node:internal/modules/esm/resolve:1039:79)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_UNSUPPORTED_DIR_IMPORT',
+  url: 'file:///var/task/artifacts/api-server/src/routes'
+}
+Node.js process exited with exit status: 1. The logs above can help with debugging the issue.",prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,,,,,
+2026-04-16 15:02:23,1776351743835,portifolio-1-api-server-vn61-gst46zyh3.vercel.app/,GET,,500,hhsll-1776351743835-3012065d227c,vercel-screenshot/1.0,,production,main,MISS,function,/,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,portifolio-1-api-server-vn61-gst46zyh3.vercel.app,dpl_ELR6YYrFAh6ChLRqQM8cfJPES98Z,190,iad1,-1,2048,,prj_5LBOdaCr05AVtHJgDG4ZC1GgMEYr,,,01KPBD1442H1F3C65F13QDEM2V,,-1,,

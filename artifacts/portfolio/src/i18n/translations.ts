@@ -7,6 +7,8 @@ export const translations = {
       title: "Gustavo Simplício",
       subtitle: "Designer Gráfico",
       role2: "Web Designer",
+      role3: "Desenvolvedor Web",
+      skills: ["Design Gráfico", "Identidade Visual", "Web Design", "Desenvolvimento Web", "React", "UI/UX"],
       description:
         "Criando experiências digitais e visuais com precisão cirúrgica. No cruzamento entre a arte visual e o desenvolvimento web, onde cada pixel conta uma história.",
       cta: "Ver Trabalhos",
@@ -46,6 +48,8 @@ export const translations = {
       title: "Gustavo Simplício",
       subtitle: "Graphic Designer",
       role2: "Web Designer",
+      role3: "Web Developer",
+      skills: ["Graphic Design", "Visual Identity", "Web Design", "Web Development", "React", "UI/UX"],
       description:
         "Creating digital and visual experiences with surgical precision. At the crossroads of visual art and web development, where every pixel tells a story.",
       cta: "View Work",
@@ -85,6 +89,8 @@ export const translations = {
       title: "Gustavo Simplício",
       subtitle: "Diseñador Gráfico",
       role2: "Diseñador Web",
+      role3: "Desarrollador Web",
+      skills: ["Diseño Gráfico", "Identidad Visual", "Web Design", "Desarrollo Web", "React", "UI/UX"],
       description:
         "Creando experiencias digitales y visuales con precisión quirúrgica. En la encrucijada entre el arte visual y el desarrollo web, donde cada píxel cuenta una historia.",
       cta: "Ver Trabajos",

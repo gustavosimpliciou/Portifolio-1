@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRight, Mail, MapPin, Phone, MessageCircle, Play, X } from "lucide-react";
+import { ArrowRight, Mail, MapPin, Phone, MessageCircle, Play, X, Code2, Palette } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -132,9 +132,31 @@ export default function Home() {
           <motion.h1 variants={itemVariants} className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6 text-foreground whitespace-nowrap">
             {t.hero.title}
           </motion.h1>
-          <motion.h2 variants={itemVariants} className="text-xl md:text-3xl text-muted-foreground font-light tracking-wide mb-10">
-            {t.hero.subtitle} <span className="text-primary/40 mx-2">|</span> {t.hero.role2}
+          <motion.h2 variants={itemVariants} className="text-lg md:text-2xl text-muted-foreground font-light tracking-wide mb-8">
+            {t.hero.subtitle} <span className="text-white/20 mx-2">·</span> {t.hero.role2} <span className="text-white/20 mx-2">·</span> {t.hero.role3}
           </motion.h2>
+
+          <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-2 mb-10">
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
+              <Palette className="w-3 h-3 text-white/40" /> {t.hero.skills[0]}
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
+              <Palette className="w-3 h-3 text-white/40" /> {t.hero.skills[1]}
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
+              <Code2 className="w-3 h-3 text-white/40" /> {t.hero.skills[2]}
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/8 border border-white/15 text-xs text-foreground/70 font-medium">
+              <Code2 className="w-3 h-3 text-white/60" /> {t.hero.skills[3]}
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
+              <Code2 className="w-3 h-3 text-white/40" /> {t.hero.skills[4]}
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
+              <Palette className="w-3 h-3 text-white/40" /> {t.hero.skills[5]}
+            </span>
+          </motion.div>
+
           <motion.p variants={itemVariants} className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed">
             {t.hero.description}
           </motion.p>

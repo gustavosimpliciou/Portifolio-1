@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm install && PORT=3000 BASE_PATH=/ pnpm --filter @workspace/portfolio run build && cp -r artifacts/portfolio/dist/public ./public",
-  "outputDirectory": "public",
+  "buildCommand": "pnpm install && PORT=3000 BASE_PATH=/ pnpm --filter @workspace/portfolio run build",
+  "outputDirectory": "artifacts/portfolio/dist/public",
   "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }

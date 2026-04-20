@@ -3,6 +3,20 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, Mail, MapPin, Phone, MessageCircle, Play, X, Code2, Palette } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { ParticleCanvas } from "@/components/ParticleCanvas";
+
+const WEB_PROJECTS = [
+  {
+    name: "Nativos 3D",
+    video: `${import.meta.env.BASE_URL}assets/video3.mp4`,
+    url: "https://site-nativos--periciagustavos.replit.app",
+  },
+  {
+    name: "Geneseez",
+    video: `${import.meta.env.BASE_URL}assets/video1.mp4`,
+    url: "https://site-leads-geneseez-nnby7ymhk-gustavo-simplicios-projects.vercel.app/",
+  },
+];
 
 const ARTWORKS = Array.from({ length: 8 }).map((_, i) => ({
   id: i + 1,
@@ -20,7 +34,7 @@ const gradients = [
   "from-stone-900 via-zinc-800 to-neutral-900",
 ];
 
-function VideoPlayer() {
+function VideoPlayer({ src, label }: { src: string; label: string }) {
   const [error, setError] = useState(false);
   if (error) {
     return (
@@ -28,13 +42,13 @@ function VideoPlayer() {
         <div className="w-20 h-20 rounded-full bg-white/5 border border-white/10 flex items-center justify-center backdrop-blur-md">
           <Play className="w-8 h-8 text-white/50 ml-1" />
         </div>
-        <p className="text-white/20 text-sm tracking-widest uppercase">Web Design Showcase</p>
+        <p className="text-white/20 text-sm tracking-widest uppercase">{label}</p>
       </div>
     );
   }
   return (
     <video
-      src={`${import.meta.env.BASE_URL}assets/video1.mp4`}
+      src={src}
       className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity duration-500"
       autoPlay loop muted playsInline
       onError={() => setError(true)}
@@ -115,6 +129,7 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary selection:text-primary-foreground">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex flex-col items-center justify-center px-6 pt-20 overflow-hidden">
+        <ParticleCanvas />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-white/[0.03] via-transparent to-transparent pointer-events-none" />
 
         <motion.div
@@ -133,7 +148,7 @@ export default function Home() {
             {t.hero.title}
           </motion.h1>
           <motion.h2 variants={itemVariants} className="text-lg md:text-2xl text-muted-foreground font-light tracking-wide mb-8">
-            {t.hero.subtitle} <span className="text-white/20 mx-2">·</span> {t.hero.role2} <span className="text-white/20 mx-2">·</span> {t.hero.role3}
+            {t.hero.subtitle} <span className="text-white/20 mx-2">·</span> {t.hero.role2}
           </motion.h2>
 
           <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-2 mb-10">
@@ -190,8 +205,11 @@ export default function Home() {
               <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed mb-6">
                 {t.about.p2}
               </motion.p>
-              <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed">
+              <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed mb-6">
                 {t.about.p3}
+              </motion.p>
+              <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed border-l-2 border-white/10 pl-4">
+                {t.about.p4}
               </motion.p>
             </div>
           </motion.div>
@@ -209,7 +227,7 @@ export default function Home() {
           >
             <motion.h3 variants={itemVariants} className="text-3xl md:text-4xl font-bold mb-16 text-center">{t.portfolio.title}</motion.h3>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {ARTWORKS.map((art) => (
                 <motion.div
                   key={art.id}
@@ -244,8 +262,64 @@ export default function Home() {
               {t.webDesign.description}
             </motion.p>
 
-            <motion.div variants={itemVariants} className="relative aspect-video rounded-2xl overflow-hidden bg-background border border-white/10 group cursor-pointer shadow-2xl">
-              <VideoPlayer />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              {WEB_PROJECTS.map((project) => (
+                <motion.div
+                  key={project.name}
+                  variants={itemVariants}
+                  className="flex flex-col gap-4 group"
+                >
+                  <div className="relative aspect-video rounded-2xl overflow-hidden bg-background border border-white/10 shadow-2xl">
+                    <VideoPlayer src={project.video} label={project.name} />
+                    <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent p-5 flex items-end">
+                      <span className="text-white font-semibold text-lg tracking-wide drop-shadow-md">
+                        {project.name}
+                      </span>
+                    </div>
+                  </div>
+
+                  <motion.a
+                    href={project.url}
+                    target={project.url !== "#" ? "_blank" : undefined}
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.04 }}
+                    whileTap={{ scale: 0.97 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                    className="self-center inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground border border-white/10 hover:border-white/30 rounded-full px-6 py-2 transition-colors duration-300"
+                  >
+                    {t.webDesign.viewProject}
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </motion.a>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Automation Section */}
+      <section className="py-32 px-6 border-y border-white/5">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={containerVariants}
+            className="text-center"
+          >
+            <motion.div variants={itemVariants} className="inline-flex items-center gap-2 mb-6 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-muted-foreground text-sm tracking-wide">
+              <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+              n8n · Automação · IA
+            </motion.div>
+            <motion.h3 variants={itemVariants} className="text-3xl md:text-4xl font-bold mb-6">{t.automation.title}</motion.h3>
+            <motion.p variants={itemVariants} className="text-muted-foreground text-lg max-w-2xl mx-auto mb-16">
+              {t.automation.description}
+            </motion.p>
+
+            <motion.div variants={itemVariants} className="max-w-full md:max-w-[50%] mx-auto">
+              <div className="relative aspect-video rounded-2xl overflow-hidden bg-background border border-white/10 group cursor-pointer shadow-2xl">
+                <VideoPlayer src={`${import.meta.env.BASE_URL}assets/video2.mp4`} label="Automation Showcase" />
+              </div>
             </motion.div>
           </motion.div>
         </div>
@@ -294,7 +368,7 @@ export default function Home() {
             {t.cta.description}
           </motion.p>
           <motion.div variants={itemVariants}>
-            <a href={`mailto:${t.contact.email}`}>
+            <a href="https://wa.me/5583981926225" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="rounded-full px-10 py-7 text-lg bg-white text-black hover:bg-white/90">
                 {t.cta.button}
               </Button>
@@ -313,7 +387,7 @@ export default function Home() {
         href="https://wa.me/5583981926225"
         target="_blank"
         rel="noreferrer"
-        className="fixed bottom-8 right-8 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg hover:scale-110 transition-transform duration-300 before:absolute before:inset-0 before:rounded-full before:border-2 before:border-green-500 before:animate-ping"
+        className="fixed bottom-8 left-8 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg hover:scale-110 transition-transform duration-300 before:absolute before:inset-0 before:rounded-full before:border-2 before:border-green-500 before:animate-ping"
       >
         <MessageCircle className="w-6 h-6" />
       </a>

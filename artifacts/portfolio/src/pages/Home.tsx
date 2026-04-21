@@ -158,19 +158,22 @@ export default function Home() {
             <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
               <Palette className="w-3 h-3 text-white/40" /> {t.hero.skills[1]}
             </span>
-            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
-              <Code2 className="w-3 h-3 text-white/40" /> {t.hero.skills[2]}
-            </span>
             <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/8 border border-white/15 text-xs text-foreground/70 font-medium">
               <Code2 className="w-3 h-3 text-white/60" /> {t.hero.skills[3]}
+            </span>
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
+              <Code2 className="w-3 h-3 text-white/40" /> {t.hero.skills[2]}
             </span>
             <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
               <Code2 className="w-3 h-3 text-white/40" /> {t.hero.skills[4]}
             </span>
           </motion.div>
 
-          <motion.p variants={itemVariants} className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed">
+          <motion.p variants={itemVariants} className="text-lg text-muted-foreground/80 max-w-2xl mx-auto mb-3 leading-relaxed">
             {t.hero.description}
+          </motion.p>
+          <motion.p variants={itemVariants} className="text-sm text-muted-foreground/60 max-w-2xl mx-auto mb-12 leading-relaxed">
+            {t.hero.tagline}
           </motion.p>
           <motion.div variants={itemVariants} className="mb-24">
             <Button

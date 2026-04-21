@@ -12,7 +12,8 @@ export const translations = {
       skills: ["Web Design", "UI/UX", "Desenvolvimento Web", "React", "Automação n8n", "Identidade Visual"],
       description:
         "Eu Crio Sites de Alta Conversão Que Transformam Visitantes em Clientes",
-      cta: "Ver Trabalhos",
+      tagline: "Ajudando negócios a crescer através de design, desenvolvimento e automação",
+      cta: "Ver Projetos",
     },
     about: {
       title: "Sobre Mim",
@@ -62,7 +63,8 @@ export const translations = {
       skills: ["Web Design", "UI/UX", "Web Development", "React", "n8n Automation", "Visual Identity"],
       description:
         "I Build High-Converting Websites That Turn Visitors Into Clients",
-      cta: "View Work",
+      tagline: "Helping businesses grow through design, development, and automation",
+      cta: "View Projects",
     },
     about: {
       title: "About Me",
@@ -112,7 +114,8 @@ export const translations = {
       skills: ["Web Design", "UI/UX", "Desarrollo Web", "React", "Automatización n8n", "Identidad Visual"],
       description:
         "Construyo Sitios Web de Alta Conversión Que Transforman Visitantes en Clientes",
-      cta: "Ver Trabajos",
+      tagline: "Ayudando a los negocios a crecer a través del diseño, desarrollo y automatización",
+      cta: "Ver Proyectos",
     },
     about: {
       title: "Sobre Mí",

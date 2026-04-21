@@ -9,12 +9,12 @@ const WEB_PROJECTS = [
   {
     name: "Nativos 3D",
     video: `${import.meta.env.BASE_URL}assets/video3.mp4`,
-    url: "https://site-nativos--periciagustavos.replit.app",
+    url: "https://nativos3d.netlify.app/",
   },
   {
     name: "Geneseez",
     video: `${import.meta.env.BASE_URL}assets/video1.mp4`,
-    url: "https://site-leads-geneseez-nnby7ymhk-gustavo-simplicios-projects.vercel.app/",
+    url: "https://geneseez.netlify.app/",
   },
 ];
 

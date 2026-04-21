@@ -148,7 +148,7 @@ export default function Home() {
             {t.hero.title}
           </motion.h1>
           <motion.h2 variants={itemVariants} className="text-lg md:text-2xl text-muted-foreground font-light tracking-wide mb-8">
-            {t.hero.subtitle} <span className="text-white/20 mx-2">·</span> {t.hero.role2}
+            {t.hero.role2} <span className="text-white/20 mx-2">·</span> {t.hero.role4} <span className="text-white/20 mx-2">·</span> {t.hero.subtitle}
           </motion.h2>
 
           <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-2 mb-10">
@@ -166,9 +166,6 @@ export default function Home() {
             </span>
             <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
               <Code2 className="w-3 h-3 text-white/40" /> {t.hero.skills[4]}
-            </span>
-            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-muted-foreground">
-              <Palette className="w-3 h-3 text-white/40" /> {t.hero.skills[5]}
             </span>
           </motion.div>
 
@@ -208,8 +205,11 @@ export default function Home() {
               <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed mb-6">
                 {t.about.p3}
               </motion.p>
-              <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed border-l-2 border-white/10 pl-4">
+              <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed mb-6">
                 {t.about.p4}
+              </motion.p>
+              <motion.p variants={itemVariants} className="text-muted-foreground text-lg leading-relaxed border-l-2 border-white/10 pl-4">
+                {t.about.p5}
               </motion.p>
             </div>
           </motion.div>
